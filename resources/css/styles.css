@@ -8,30 +8,104 @@ body {
     text-align: center;
 }
 
+a {color: seashell;}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* Header */
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 20;
+}
+
+nav {
+    display: flex;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* Misson */
+
+.mission {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/resources/img/img-mission-background.jpg') no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+}
+
+.mission-text {
+    margin: 0 auto;
+    background: #000;
+    width: 100%;
+}
+
 /* Tea of the Month */
+
+.feature {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: wrap;
+    width: 1000px;
+}
+
+.img img {
+    width: 300px;
+    height: 200px;
+}
 
 /* Locations */
 
 .location {
-    background: url('/resources/img/img-locations-background.jpg');
+    background: url('/resources/img/img-locations-background.jpg') no-repeat;
+    background-size: cover;
     height: 500px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.header {display: block;}
+
 .card {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
     background: #000;
     opacity: 1;
+    width: 300px;
+    margin-top: 15px;
+    margin-right: 40px;
 }
 
 /* Footer */
 
 footer{
     display: flex;
+    flex-direction: column;
     height: 200px;
 }
 
 .copy {
-    padding-top: 20px;
+    padding: 20px;
     text-align: left;
+    font-size: 16px;
 }
