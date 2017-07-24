@@ -1,0 +1,37 @@
+/* Basic Elements */
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: #000;
+    opacity: 0.9;
+    color: seashell;
+    text-align: center;
+}
+
+/* Header */
+
+/* Tea of the Month */
+
+/* Locations */
+
+.location {
+    background: url('/resources/img/img-locations-background.jpg');
+    height: 500px;
+    display: flex;
+}
+.card {
+    background: #000;
+    opacity: 1;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    height: 200px;
+}
+
+.copy {
+    padding-top: 20px;
+    text-align: left;
+}
